@@ -20,6 +20,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  white-space: pre-wrap;
 }
 
 .note-footer{
@@ -34,6 +35,7 @@ code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 100vh;
 }
 .notes-list{
   display: grid;
@@ -64,4 +66,41 @@ textarea:focus{
 .save:hover{
   background-color: #ededed;
   cursor: pointer;
+}
+
+.delete-icon{
+  cursor: pointer;
+}
+
+.search{
+  display:flex;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+.search input{
+  border: none;
+  background-color: #ededed;
+
+}
+
+.search input:focus{
+  outline: none;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode{
+  background-color: #121212;
+
+}
+
+.dark-mode h1{
+  color: white;
 }
