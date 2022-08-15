@@ -14,6 +14,9 @@ const Header = ({ handleToggleDarkMode }) => {
 			>
 				Toggle Modes
 			</button>
+			<button className='save'>
+				Log Out
+			</button>
 		</div>
 	);
 };
